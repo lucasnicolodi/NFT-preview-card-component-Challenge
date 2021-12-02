@@ -1,0 +1,172 @@
+/*Verificar no curso da Alura como usar media quarry e transformar desktop para celular - Design responsivo*/
+
+html{
+  background: hsl(217, 54%, 11%);
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  font-family: 'Outfit', sans-serif;
+  padding: 100px 0;
+  max-height: 1000px;
+}
+
+main{
+
+}
+
+.principal-card{
+  position: relative;
+  background: hsl(216, 50%, 16%);
+  height: 60%;
+  width: 350px;
+  margin: auto;
+  border-radius: 10px;
+  padding: 25px 25px 20px;
+  box-sizing: border-box;
+  color: white;
+  box-shadow: 0px 30px 40px 20px rgba(0,0,0,0.1);
+}
+
+
+.imagem-principal__img {
+  display: block;
+  width: 300px;
+  border-radius: 10px;
+}
+
+
+.svg-view{
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  margin: 25px 25px 35px;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagem-principal__overlay:hover{
+  opacity: 50%;
+  cursor: pointer;
+}
+
+.svg-view:hover{
+  opacity: 100%;
+  background: rgba(0, 255, 247, 0.5);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.equilibrium{
+  position: relative;
+  font-weight: 500;
+  font-size: 1em;
+  margin-top: 1em;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: cyan;
+}
+
+.description{
+  position: relative;
+  font-weight: 300;
+  font-size: 16px;
+  margin-top: 18px;
+  color: hsl(215, 51%, 70%);
+  line-height: normal;
+}
+
+.eth-time{
+  transform: scale(0.8);
+  display: flex;
+  justify-content: space-between;
+  margin: 1em  0;
+}
+
+.eth{
+  color: cyan;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: -12%;
+}
+
+.eth-icon{
+  margin-right: 10px;
+}
+
+.time{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: -11%;
+}
+
+.time-text{
+  color: hsl(215, 51%, 70%);
+  font-weight: 200;
+}
+
+.line{
+  width: 100;
+  border-bottom: 0.1px hsl(215, 51%, 70%);
+  opacity: 0.3;
+}
+
+.creator{
+  display: flex;
+  color: hsl(215, 51%, 70%);
+}
+
+.creator-pic{
+  width: 35%;
+}
+
+.creator-pic_img{
+  margin-top: 5px;
+  width: 35%;
+  border: 1px solid white;
+  border-radius: 100%; 
+}
+
+.creator-desc{
+  margin-left: -65px;
+  transform: scale(0.8);
+  margin-right: 6px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.creator-desc a{
+  color: white;
+  text-decoration: none;
+}
+
+.creator-desc a:hover{
+  text-decoration: none;
+  color: cyan;
+}
+
+.attribution{
+  color: white;
+  position: absolute;
+  margin: 0 auto;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.attribution a{
+  color: cyan;
+  text-decoration: none;
+}
