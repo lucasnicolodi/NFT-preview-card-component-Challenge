@@ -1,19 +1,16 @@
 ##
 
-So, ahn, hey!
-I am new here. Like, new, NEW here.  I've  been studying and practicing HTML n CSS for around...  5 days or something ahahahaha.
-I've put tons of work into this project, which is my very first one. 
-Of course it is far, faaaar away from being acceptable, but I'll give it a  shot  since I have no experience at all in this world.
+Este projeto foi meu primeiríssimo projeto trabalhando com CSS e, por isso, estou compartilhando ele aqui. 😊
 
-So happy to be given this chance and try this challenge. I've learnd a lot through the process of creating this, very happy with  the final result even tho I can see  it can improve hell of a lot.
+O projeto foi disponibilizado por frontendmentor.io, um site especializado em propôr desafios para iniciantes ou amantes de CSS para treinarem suas habilidades.
 
-I am so sorry if I've commited any rude mistakes, still in the process of learning.
+Ele inclui o card de NFT e mais alguns efeitos de hover, como também a parte responsiva.
 
-I'd love some tips and comments on what I've done.
+Espero que goste da minha releitura e, caso se sinta na vontade, fique livre para propôr melhorias em meu código.
 
-Once again, thank you! :)
+Lucas.
 
-Lucas, xo.
+---
 
 ##
 # Frontend Mentor - NFT preview card component
